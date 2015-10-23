@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="grupo1.emprendedores.ortocrafia.MenuPrincipal">
+
+
+    <item android:id="@+id/menuP"
+        android:title="Menu"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/menuJ"
+        android:title="Ejercicios"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/opciones" android:title="Opciones"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/estadisticas" android:title="Estadisticas"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/salir" android:title="Salir"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/cerrar" android:title="Cerrar"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+</menu>
